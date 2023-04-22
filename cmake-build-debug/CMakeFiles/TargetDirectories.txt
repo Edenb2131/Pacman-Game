@@ -1,0 +1,3 @@
+/Users/edenbar/CLionProjects/Year2/Pacman-Game/cmake-build-debug/CMakeFiles/Pacman_Game.dir
+/Users/edenbar/CLionProjects/Year2/Pacman-Game/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/edenbar/CLionProjects/Year2/Pacman-Game/cmake-build-debug/CMakeFiles/rebuild_cache.dir

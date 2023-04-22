@@ -7,7 +7,6 @@
 
 #include <iostream>
 
-
 class Game {
     
     int score = 0;
@@ -16,8 +15,9 @@ class Game {
     
 public:
     Game();
-    
+    void print_menu();
     void start();
+    static int get_players_choice();
     static void print_InstAndKeys();
     
     

@@ -6,17 +6,26 @@
 
 
 #include <iostream>
-#include "Game.h"
-#include "Ghost.h"
-#include "breadcrumbs.h"
-#include "Pacman.h"
+#include <vector>
+#include <string>
+#include <array>
 
+//#include "Game.h"
+//#include "Ghost.h"
+//#include "breadcrumbs.h"
+//#include "Pacman.h"
+
+#define WIDTH 80
+#define HEIGHT 25
+
+using std::vector;
 
 class Board {
-    enum {WIDTH = 81, HEIGHT = 24};
-    char board[HEIGHT][WIDTH];
-    
+    vector<vector<char>> board;
+//    char board[HEIGHT][WIDTH]{};
+
 public:
+    
     Board();
     void print();
 };

@@ -8,5 +8,6 @@ using namespace std;
 
 
 Pacman::Pacman() {
-    cout << "@" << endl;
+//    cout << "Made a PAC-MAN!" << endl;
+//    cout << "@" << endl;
 }
